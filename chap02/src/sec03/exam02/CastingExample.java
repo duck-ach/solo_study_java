@@ -15,6 +15,10 @@ public class CastingExample {
 		double doubleValue = 3.14;
 		intValue = (int) doubleValue;
 		System.out.println(intValue);
+		
+		long longValues = 200;
+		intValue = (int) longValues;
+		System.out.println(intValue);
 
 	}
 
